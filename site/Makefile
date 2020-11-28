@@ -46,5 +46,15 @@ $(STAGE_DIR)/luisvega-cv.pdf: $(CV_FILE)
 $(STAGE_DIR):
 	mkdir -p $@
 
+.PHONY: check
+check: stage
+	html5validator \
+	  --root stage/ \
+	  --also-check-css \
+	  --show-warnings \
+	  --format text 2>&1 \
+	| tr -d "'" \
+	| awk 'BEGIN {RS=","; ORS="\n"} /Error/ || /Warning/ {print "\n"} {print $$0}'
+
 clean:
 	-rm -rf $(STAGE_DIR)
