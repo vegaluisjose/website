@@ -41,7 +41,8 @@ $(STAGE_DIR)/pubs: $(PUBS_DIR)
 	cp -r $< $@
 
 $(STAGE_DIR)/luisvega-cv.pdf: $(CV_FILE)
-	cp $< $@
+	$(MAKE) --directory ../cv luisvega-cv.pdf
+	cp ../cv/luisvega-cv.pdf $@
 
 $(STAGE_DIR):
 	mkdir -p $@
