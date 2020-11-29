@@ -8,7 +8,6 @@ STAGE_INCLUDE=$(patsubst include/%,$(STAGE_DIR)/%,$(INCLUDE))
 
 TARGET_DIR = /cse/web/homes/vegaluis
 PUBS_DIR = $(HOME)/z/pubs
-CV_FILE = $(HOME)/z/luisvega-cv.pdf
 
 default: stage sync
 
@@ -40,7 +39,7 @@ $(STAGE_DIR)/%: include/%
 $(STAGE_DIR)/pubs: $(PUBS_DIR)
 	cp -r $< $@
 
-$(STAGE_DIR)/luisvega-cv.pdf: $(CV_FILE)
+$(STAGE_DIR)/luisvega-cv.pdf:
 	$(MAKE) --directory ../cv luisvega-cv.pdf
 	cp ../cv/luisvega-cv.pdf $@
 
