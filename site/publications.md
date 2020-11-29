@@ -102,7 +102,7 @@
 
 ::: {.pub-entry}
   **ASIC Clouds: Specializing the Datacenter** \
-  Ikuo Magaki, Moein Khazraee, Luis Vega Gutierrez and Michael Bedford Taylor.
+  Ikuo Magaki, Moein Khazraee, Luis Vega Gutierrez and Michael Bedford Taylor \
   International Symposium on Computer Architecture (ISCA) 2016 \
   [paper](pubs/isca16_magaki_asic_cloud.pdf) &nbsp;
 :::
