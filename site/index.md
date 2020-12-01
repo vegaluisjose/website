@@ -22,11 +22,11 @@ I am broadly interested in programming languages and compilers, particularly
 for the purpose of programming and designing specialized hardware. There is an
 increasing interest in hardware acceleration due to major improvements in terms
 of performance-cost-energy compared to general-purpose hardware. However, most
-mainstream languages and compilers for accelerators today are lagging behind
-traditional software counterparts in many fronts, resulting extremely
-challenging to efficiently build robust specialized systems. Consequently, my research
-focuses on creating principled and accessible tools and languages that
-addresses programming challenges around hardware accelerators.
+mainstream languages and compilers for accelerators today are lagging behind,
+resulting extremely challenging to efficiently build robust specialized
+systems. Consequently, my research focuses on creating principled and
+accessible tools and languages that addresses programming challenges around
+hardware accelerators.
 
 I hold a M.Sc. in Electrical and Computer Engineering from the University of
 Kaiserslautern (Germany) and a B.Sc. in Electrical Engineering from the
