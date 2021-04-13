@@ -18,7 +18,7 @@
 ::: {.pub-entry}
   **Reticle: A Virtual Machine for Programming Modern FPGAs** \
   Luis Vega, Joseph McMahan, Adrian Sampson, Dan Grossman, and Luis Ceze \
-  PLDI 2021 \
+  Programming Language Design and Implementation (PLDI) 2021 \
   [paper](pubs/pldi21_vega_reticle.pdf) &nbsp;
 :::
 
