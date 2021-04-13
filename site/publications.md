@@ -16,6 +16,13 @@
 # Publications
 
 ::: {.pub-entry}
+  **Reticle: A Virtual Machine for Programming Modern FPGAs** \
+  Luis Vega, Joseph McMahan, Adrian Sampson, Dan Grossman, and Luis Ceze \
+  PLDI 2021 \
+  [paper](pubs/pldi21_vega_reticle.pdf) &nbsp;
+:::
+
+::: {.pub-entry}
   **LastLayer: Towards Hardware and Software Continuous Integration** \
   Luis Vega, Jared Roesch, Joseph McMahan, and Luis Ceze \
   IEEE Micro 2020 \
