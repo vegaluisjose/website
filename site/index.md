@@ -30,9 +30,3 @@ My research focuses on creating principled and highly productive
 tools and languages that tackle programming challenges around
 hardware accelerators.
 
-I hold a M.Sc. in Electrical and Computer Engineering from the University of
-Kaiserslautern (Germany) and a B.Sc. in Electrical Engineering from the
-University of Los Andes (Venezuela). Prior to joining UW, I worked as a staff
-research associate in the Computer Science and Engineering department at the
-University of California, San Diego.
-
